@@ -1,9 +1,9 @@
 {
   "name": "angular-material-seed",
-  "version": "0.0.0",
+  "version": "7.0.0",
   "description": "Modular seed project for Angular 7 apps with Material",
   "repository": {
-    "url": "https://github.com/kunalkamble/angular-material-seed.git"
+    "url": "https://github.com/kunalkamble/angular-material-seed"
   },
   "scripts": {
     "build.tools": "tsc && gulp build.tools --color",
