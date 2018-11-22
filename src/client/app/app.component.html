@@ -1,25 +1,37 @@
-<mat-sidenav-container fxLayout="row">
-  <!-- mat-sidenav #start>
-    <mat-nav-list>
-      <a mat-list-item [routerLink]="['about']">About</a>
-      <a mat-list-item [routerLink]="['demo']">Demo</a>
-    </mat-nav-list>
-    <button mat-button (click)="start.close()">CLOSE</button>
-  </mat-sidenav -->
-
-  <mat-toolbar>
-    <!-- button mat-icon-button (click)="start.open()" color="primary">
-        <mat-icon class="mat-24" >menu</mat-icon>
-      </button -->
-      <span>Angular 7 + Material 7</span>
-  </mat-toolbar>
-
-  <div fxLayout="row" 
-    fxLayoutAlign="start center"
-    fxLayoutGap="20px" 
-    style="height:40px; min-height:40px;">
-    <button mat-raised-button color="primary" [routerLink]="['about']">about</button>
-    <button mat-raised-button color="primary" [routerLink]="['demo']">demo</button>
-  </div>
+<mat-toolbar color="primary">
+  <span>Angular + Material Seed Project</span>
+</mat-toolbar>
+<mat-sidenav-container>
+  <!--
+    mat-sidenav #start>
+      <mat-nav-list>
+        <a mat-list-item [routerLink]="['about']">About</a>
+        <a mat-list-item [routerLink]="['demo']">Demo</a>
+      </mat-nav-list>
+      <button mat-button (click)="start.close()">CLOSE</button>
+    </mat-sidenav
+  -->
+  <mat-sidenav
+    mode="side"
+    opened
+    style="height:100%;"
+    fxLayout="row"
+    fxLayoutGap="20px"
+  >
+    <mat-list fxLayout="row" fxLayoutAlign="start center">
+      <mat-list-item>
+        <button mat-raised-button color="primary" [routerLink]="['about']">
+          About
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button color="primary" [routerLink]="['demo']">
+          Demo
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content fxLayout="row" fxLayoutGap="20px">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
 </mat-sidenav-container>
-<router-outlet></router-outlet>

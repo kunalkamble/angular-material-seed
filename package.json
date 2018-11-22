@@ -39,9 +39,9 @@
     "serve.compodoc": "./node_modules/.bin/compodoc -s"
   },
   "author": {
-    "name" : "Kunal Kamble", 
-    "email" : "kunal.kamble@peelsb.com", 
-    "url" : "http://kunalkamble.com/"
+    "name": "Kunal Kamble",
+    "email": "kunal.kamble@peelsb.com",
+    "url": "http://kunalkamble.com/"
   },
   "license": "MIT",
   "engines": {
