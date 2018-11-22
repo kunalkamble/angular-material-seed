@@ -10,8 +10,6 @@
     "build.dev": "gulp build.dev --color --env-config dev",
     "build.dev.watch": "gulp build.dev.watch --color",
     "build.prod": "gulp build.prod.rollup.aot --color --env-config prod --build-type prod",
-    "build.prod.aot": "gulp build.prod.rollup.aot --color --env-config prod --build-type prod",
-    "build.prod.rollup.aot": "gulp build.prod.rollup.aot --color --env-config prod --build-type prod",
     "build.test": "gulp build.test --color",
     "test.watch": "gulp test.watch --color",
     "generate.manifest": "gulp generate.manifest --color",
