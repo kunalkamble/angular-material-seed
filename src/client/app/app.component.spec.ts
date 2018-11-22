@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TestBed } from '@angular/core/testing';
 import { APP_BASE_HREF } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
   async
@@ -56,6 +58,8 @@ export function main() {
     beforeEach(() => {
       TestBed.configureTestingModule({
         imports: [FormsModule,
+          BrowserAnimationsModule,
+          NoopAnimationsModule,
           MatAutocompleteModule,
           MatCheckboxModule,
           MatDatepickerModule,
