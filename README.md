@@ -1,5 +1,6 @@
 # Introduction
-Angular (7) + Material(7) + Seed
+Angular + Material APP Seed
+
 [![Build Status](https://travis-ci.org/kunalkamble/angular-material-seed.svg?branch=master)](https://travis-ci.org/kunalkamble/angular-material-seed)
 
 # How to start
