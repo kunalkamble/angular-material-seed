@@ -34,7 +34,8 @@
     "e2e.ci": "gulp build.prod.rollup.aot --color && gulp e2e --color",
     "tests.all": "npm test && npm run e2e.ci",
     "compodoc": "./node_modules/.bin/compodoc -p src/client/tsconfig.json",
-    "serve.compodoc": "./node_modules/.bin/compodoc -s"
+    "serve.compodoc": "./node_modules/.bin/compodoc -s",
+    "cy": "./node_modules/.bin/cypress"
   },
   "author": {
     "name": "Kunal Kamble",
